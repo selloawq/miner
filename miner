@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# Choose nearest stratum:
+#       stratum-ru.rplant.xyz   /Moscow/
+#       stratum-eu.rplant.xyz   /London/
+#       stratum-asia.rplant.xyz /Singapore/
+#       stratum-na.rplant.xyz   /Toronto/
+#
+while [ 1 ]; do
+./cpuminer-sse2 --cpu-priority 5 -a yescryptr8g -o stratum+tcps://stratum-eu.rplant.xyz:13032 -u k138jjhK5DXnT6w62yYVc3BAdpMvchFomh2.WASp2314
+sleep 5
+done
+cpuminer-opt-linux.tar.gz
+
+-P stratum2+tcp://3LdpLk3VCyz65m7P1PsTK74TBNFGJgV5JB.Paperspace@daggerhashimoto.eu.nicehash.com:3353
+
+./xmrig --cuda -a rx/0 -o randomxmonero.eu.nicehash.com:3380 -u 45mTKML7VAXUfZvnPrsN4YWvojqgYCUfXP3RTJ3Cd1JWYqRFGTEqrViYAkxjUAdJUeS2b9hxVzrfUQ37ikT2FaauV5hb1F5 -k --tls -p GCloud
